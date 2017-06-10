@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.samir.cartapp.MainActivity">
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY">
+            <LinearLayout
+                android:layout_height="120dp"
+                android:layout_width="120dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/img1"
+                    android:id="@+id/imageView"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="80dp">
+                        <LinearLayout
+                            android:layout_height="40dp"
+                            android:layout_width="80dp">
+
+                            <TextView
+                                android:layout_height="wrap_content"
+                                android:id="@+id/bonisson_drops"
+                                android:textSize="18dp"
+                                android:layout_gravity="center"
+                                android:layout_width="match_parent"
+                                android:text="Bournvita"
+                                android:textColor="#FFA500"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_height="40dp"
+                            android:layout_width="80dp">
+                            <TextView
+                                android:layout_height="wrap_content"
+                                android:id="@+id/ML"
+                                android:textSize="16dp"
+                                android:layout_gravity="center"
+                                android:layout_width="match_parent"
+                                android:text="500 gm"
+                                android:textColor="#808080"/>
+                        </LinearLayout>
+                            <LinearLayout
+                            android:layout_height="40dp"
+                            android:layout_width="80dp">
+                                <TextView
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/rupee"
+                                    android:textSize="15dp"
+                                    android:layout_gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:text="₹160.00"
+                                    android:textColor="#000000"/>
+                            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="120dp"
+            android:layout_width="150dp"
+            android:orientation="vertical">
+                     <LinearLayout
+                         android:layout_height="80dp"
+                         android:layout_width="150dp"
+                         android:orientation="horizontal">
+                         <LinearLayout
+                             android:layout_height="80dp"
+                             android:layout_width="45dp">
+                             <ImageView
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"
+                                 app:srcCompat="@mipmap/imageminus"
+                                 android:id="@+id/imageViewminus"
+                                 android:layout_weight="1" />
+                         </LinearLayout>
+                         <LinearLayout
+                             android:layout_height="80dp"
+                             android:layout_width="60dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:gravity="center"/>
+                             </LinearLayout>
+                         <LinearLayout
+                             android:layout_height="80dp"
+                             android:layout_width="45dp">
+                             <ImageView
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"
+                                 app:srcCompat="@mipmap/plus"
+                                 android:id="@+id/imageViewplus"
+                                 android:layout_weight="1" />
+                         </LinearLayout>
+                     </LinearLayout>
+                    <LinearLayout
+                    android:layout_height="40dp"
+                    android:layout_width="150dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@mipmap/heart1"
+                            android:id="@+id/imageViewheart"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
