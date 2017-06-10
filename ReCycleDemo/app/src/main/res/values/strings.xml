@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ReCycleDemo</string>
+    <string name="add_1">Red 1</string>
+    <string name="add_2">Green 2</string>
+    <string name="add_3">Blue 3</string>
+    <string name="add_4">White 4</string>
+    <string name="add_5">Black 5</string>
+    <string name="add_6">Yellow 6</string>
+    <string name="add_7">Gray 7</string>
+    <string name="add_8">Orange 8</string>
+    <string name="add_9">Pink 9</string>
+</resources>
